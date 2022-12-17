@@ -1,0 +1,11 @@
+GET http://localhost:8080/info?id=1 HTTP/1.1
+
+###
+
+POST  http://localhost:8080/creation HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "amr",
+    "password": "1278883"
+}
